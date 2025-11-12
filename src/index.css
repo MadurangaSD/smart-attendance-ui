@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Basic theme variables */
+:root {
+  --primary: #2563eb;
+  --bg: #f8fafc;
+}
+body { background: var(--bg); }
